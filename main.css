@@ -1,0 +1,379 @@
+body{
+    font-family: 'montserrat',sans-serif;
+    background-color: rgb(255, 247, 231);
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.header{
+    z-index: 2;
+    background-color:#C97741;
+    width: 100vw;
+
+}
+
+.header__nav{
+    height: 35px;
+}
+
+.logo{
+    color: #FFF9DA;
+    font-family: 'montserrat',sans-serif;
+}
+
+.logoicon{
+    font-size: 30px;
+    padding-right: 2px;
+}
+
+.logospan{
+    font-weight: 100;
+    position: relative;
+    left:-3%;
+    color: #FFF9DA;
+}
+.logospans{
+    color: #FFF9DA;
+}
+#navbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(252, 236, 204);
+    z-index: 4;
+}
+.nav-link{
+    display: flex;
+}
+.nav-link a{
+    text-decoration: none;
+    color: #FFF9DA;
+    padding: 5px;
+}
+img{
+    border-radius: 20px;
+    width: 70%;
+}
+
+.section__img{
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("img/ruben-ramirez-xhKG01FN2uk-unsplash.jpg");
+}
+
+.section__h1{
+    top:150px;
+    left: 23%;
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif;
+    font-size: 8rem;
+    color: transparent;
+    -webkit-text-stroke: 2px #FFF9DA;
+    letter-spacing: 5px;
+}
+
+.cta{
+    position: absolute;
+    width: 100%;
+    bottom: 40%;
+    text-align: center;
+}
+ .bookcta{
+    border: none;
+    background-color: #FFB954;
+    color: #FFF9DA;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 12px 4px;
+}
+
+.explorecta{
+    background-color: transparent;
+    font-size: 14px;
+    border: none;
+
+
+}
+
+.bookcta{
+    background-color: #C97741;
+}
+/* .bookcta:hover{
+    
+    transition: 0.5s;
+    padding-right: 14px;
+    background-color: #8e190e;
+} */
+
+#section2__row{
+    background-color: #FFF9DA;
+}
+
+.section2__div{
+    margin: 8% 0;
+}
+
+.section2__img img{
+    border-radius: 0px;
+}
+
+
+.section2__row2 {
+    background-color:#FFD5A2;
+}
+
+.section2__p{
+    color: #82130A;
+}
+
+.beansvg__div{
+   padding: 0px;
+   padding-left: 2px;
+}
+
+.subcontent__row{
+    margin-top: 32px;
+}
+
+
+.testimonial__section{
+    background-color: #fcc67a;
+}
+
+.testimonial__card{
+    background-color:  #FFD5A2;
+    width: 20%;
+    border-radius: 6px;
+    margin: 6% 1%;
+}
+
+.testimonial__p{
+    margin: 0;
+    color: #C97741;
+}
+
+.pro{
+    color: #82130A;
+}
+
+.peopleimg{
+    width:70px;
+    height: 75px;
+    top: -30px;
+    position: relative;
+    object-fit: cover;
+    object-position: center;
+    
+}
+
+.testimonial__card i{
+    color: #82130A;
+}
+
+.testimonial__head p{
+    color: #82130A;
+    margin: 0;
+}
+
+.testimonial__head h3{
+    color: #82130A;
+}
+.blankstar{
+    color: white !important;
+}
+
+.testimonial__description{
+    color: #82130A;
+}
+
+.background__icon{
+    position: absolute;
+    font-size: 200px;
+    left: -30px;
+    text-align: left;
+    color: #82130A;
+    transform: rotate(25deg);
+}
+
+.socialmedia__row{
+    background-color: #FFF9DA;
+}
+.socialmedia__row ul{
+    list-style:none ;
+    padding: 0;
+}
+.socialmedia__row li{
+    margin-bottom: 8px;
+}
+
+.social__cup{
+    color: #C97741;
+    font-size: 25px
+}
+.social__icon{
+    color: #C97741;
+    font-size: 20px;
+}
+
+.instagram__pic{
+    width: 30%;
+    border-radius: 0;
+    padding: 0px 2px;
+    object-fit: cover;
+}
+
+
+.socialmedia__row h5{
+    margin-bottom: 20px;
+    color: #C97741;
+}
+.socialmedia__row p,span{
+    color: #82130A;
+}
+.social-icon{
+    color: #82130A;
+    margin: 6px;
+    font-size: 20px;
+}
+
+.underline{
+    border-bottom: 1px solid #82130A;
+    bottom: 20px;
+    width: 80%;
+    transform: translate(12%);
+    margin-top:4%;
+    margin-bottom: 1%;
+}
+.name{
+    margin: 6px;
+    color: #C97741;
+    font-size: 20px;
+}
+
+.TableBooking_a{
+    color: #FFF9DA;
+}
+.Exploremore{
+    color: #FFF9DA;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    body{
+        overflow-x: hidden;
+    }
+     .column__row{
+        display: flex;
+        flex-wrap:wrap;
+        flex-direction: column;
+        width: 100vw;
+     }
+
+    
+    .dropdown-nav__imgcol{
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        margin-top: 20%;
+
+    }
+
+    .dropdown-nav__imgcol img{
+        width: 30%;   
+    }
+
+    .section__h1{
+        /* font-size: 3rem;
+        left: 9%;
+        top: 25%;
+        -webkit-text-stroke: 1.2px #FFF9DA; */
+        display: none;
+    }
+
+    .img__content h3{
+        font-size:16px;
+        text-align: center;
+
+    }
+    .img__content p{
+        font-size:12px;
+
+    }
+
+    .img__content{
+        margin-left: 5%;
+
+    }
+
+    .testimonial__section{
+        display: flex;
+        flex-direction: column;
+    }
+    .testimonial__card{
+        width: 80%;
+    }
+    .socialmedia__row{
+        display: flex;
+        flex-direction: column;
+    }
+    .socialmedia__col{
+        width:auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .socialmedia__row h5{
+        margin-top: 20px;
+    }
+    .dropdown-nav__closeNavBtn{
+        right: 10%;
+        width: 9%;
+        
+    }
+
+    .outer{
+        padding-right: 0px !important;
+    }
+
+    .scrolldowndiv{
+        bottom: 15%;
+    }
+
+    .section__img{
+        height: 80vh;
+    }
+
+    .cta{
+        bottom: 50%;
+    }
+    .nav-link{
+       display: none;
+    }
+    
+}
+
+@media screen and (max-width: 1200px) { 
+    .background__icon{
+        display: none;
+    }
+    .section__h1{
+        display: none;
+    }
+}
